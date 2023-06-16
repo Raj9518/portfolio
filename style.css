@@ -311,13 +311,18 @@ nav .fa{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(personal-portfolio-img/images/phone-background.png);
-    }
+   /* #header{
+        background-image: url(personal-portfolio-img/images/main3.png);
+        background-position: bottom;
+    } */
     
     .header-text{
-        margin-top: 100%;
+        margin-top: 50%;
         font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .header-text .hehe{
+        font-size: 60px;
     }
     .header-text h1{
         font-size:13px;
